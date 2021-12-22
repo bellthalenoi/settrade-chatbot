@@ -17,8 +17,8 @@ lineaccesstoken = 'HcqMKjX1Ec8mFEQLrbkiiB9n6wYll+fqoemKfM0vmHKfwCpIIy16VhYssbGrx
 line_bot_api = LineBotApi(lineaccesstoken)
 handler = WebhookHandler('94bb7eba9078dbba576665b33b7ac663')
 investor = Investor(
-    app_id="1656735204",
-    app_secret="94bb7eba9078dbba576665b33b7ac663",
+    app_id="9q3SFT8eIMMaaDDN",
+    app_secret="Rj0E07NcxngKZ9Qul67+MzDkaXhmORc6rI8oUFSB5g0=",
     broker_id="SANDBOX",
     app_code="SANDBOX",
     is_auto_queue=False)
