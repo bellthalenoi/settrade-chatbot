@@ -17,12 +17,12 @@ lineaccesstoken = 'ypBOQYfcf02uIFi6xnRZMhSqe158K3BvHd2SHQuinD1gm81coC0nTVrOA6Jw1
 line_bot_api = LineBotApi(lineaccesstoken)
 handler = WebhookHandler('38d9d12281570bb54dad0dacca3a3536')
 investor = Investor(
-    app_id="9q3SFT8eIMMaaDDN",
-    app_secret="Rj0E07NcxngKZ9Qul67+MzDkaXhmORc6rI8oUFSB5g0=",
+    app_id="ve4W9sbSIJmzYNuK",
+    app_secret="ALyZD7YOPdYi66PcxWyoe2R921ZLJRcQAUX4WiKrSBou",
     broker_id="SANDBOX",
     app_code="SANDBOX",
     is_auto_queue=False)
-equity = investor.Equity(account_no="your-account-no")
+equity = investor.Equity(account_no="belltha-E")
 realtime = investor.RealtimeDataConnection()
 
 @app.route('/webhook', methods=['POST'])
