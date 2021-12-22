@@ -1,5 +1,3 @@
-import settrade.openapi
-
 from flask import Flask, request, abort
 from settrade.openapi import Investor
 
@@ -15,9 +13,9 @@ from linebot.models import (
 
 app = Flask(__name__)
 
-lineaccesstoken = 'HcqMKjX1Ec8mFEQLrbkiiB9n6wYll+fqoemKfM0vmHKfwCpIIy16VhYssbGrx2EBM3QbNwz2g5iDpEJRXlwj3YQI13qz0n2l/EaScaTzBVv6N549e1L0GKKtDdGYRoLNrp7MM7A9tSWV4YpeSSKZRwdB04t89/1O/w1cDnyilFU='
+lineaccesstoken = 'ypBOQYfcf02uIFi6xnRZMhSqe158K3BvHd2SHQuinD1gm81coC0nTVrOA6Jw1ku/M3QbNwz2g5iDpEJRXlwj3YQI13qz0n2l/EaScaTzBVsUzKo2fuF2NcvblIv/XMTaDjcSZEbQ6+oeIysrfIYylQdB04t89/1O/w1cDnyilFU='
 line_bot_api = LineBotApi(lineaccesstoken)
-handler = WebhookHandler('94bb7eba9078dbba576665b33b7ac663')
+handler = WebhookHandler('38d9d12281570bb54dad0dacca3a3536')
 investor = Investor(
     app_id="9q3SFT8eIMMaaDDN",
     app_secret="Rj0E07NcxngKZ9Qul67+MzDkaXhmORc6rI8oUFSB5g0=",
