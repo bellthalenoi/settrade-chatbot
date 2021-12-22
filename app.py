@@ -13,8 +13,8 @@ from linebot.models import (
 
 app = Flask(__name__)
 
-lineaccesstoken = 'your-line-access-token'
-line_bot_api = LineBotApi(HcqMKjX1Ec8mFEQLrbkiiB9n6wYll+fqoemKfM0vmHKfwCpIIy16VhYssbGrx2EBM3QbNwz2g5iDpEJRXlwj3YQI13qz0n2l/EaScaTzBVv6N549e1L0GKKtDdGYRoLNrp7MM7A9tSWV4YpeSSKZRwdB04t89/1O/w1cDnyilFU=)
+lineaccesstoken = 'HcqMKjX1Ec8mFEQLrbkiiB9n6wYll+fqoemKfM0vmHKfwCpIIy16VhYssbGrx2EBM3QbNwz2g5iDpEJRXlwj3YQI13qz0n2l/EaScaTzBVv6N549e1L0GKKtDdGYRoLNrp7MM7A9tSWV4YpeSSKZRwdB04t89/1O/w1cDnyilFU='
+line_bot_api = LineBotApi(lineaccesstoken)
 handler = WebhookHandler('94bb7eba9078dbba576665b33b7ac663')
 investor = Investor(
     app_id="your-app-id",
