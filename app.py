@@ -19,8 +19,8 @@ handler = WebhookHandler('your-channel-secret')
 investor = Investor(
     app_id="your-app-id",
     app_secret="your-app-secret",
-    broker_id="xxx",
-    app_code="xxx",
+    broker_id="SANDBOX",
+    app_code="SANDBOX",
     is_auto_queue=False)
 equity = investor.Equity(account_no="your-account-no")
 realtime = investor.RealtimeDataConnection()
