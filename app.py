@@ -13,9 +13,9 @@ from linebot.models import (
 
 app = Flask(__name__)
 
-lineaccesstoken = 'ypBOQYfcf02uIFi6xnRZMhSqe158K3BvHd2SHQuinD1gm81coC0nTVrOA6Jw1ku/M3QbNwz2g5iDpEJRXlwj3YQI13qz0n2l/EaScaTzBVsUzKo2fuF2NcvblIv/XMTaDjcSZEbQ6+oeIysrfIYylQdB04t89/1O/w1cDnyilFU='
+lineaccesstoken = '4ThUnK3N53FphOFkv7MZgWKKaH9xBCwUF9MEPfGvF7cefz0jloyILWrvbqKlXKOJM3QbNwz2g5iDpEJRXlwj3YQI13qz0n2l/EaScaTzBVtn82CmO3HjDpLqM/F+tuSM29ZgPt3s6K0bnBMz5kVZngdB04t89/1O/w1cDnyilFU='
 line_bot_api = LineBotApi(lineaccesstoken)
-handler = WebhookHandler('38d9d12281570bb54dad0dacca3a3536')
+handler = WebhookHandler('5d7008b24700649017436b6e4effb3f1')
 investor = Investor(
     app_id="ve4W9sbSIJmzYNuK",
     app_secret="ALyZD7YOPdYi66PcxWyoe2R921ZLJRcQAUX4WiKrSBou",
