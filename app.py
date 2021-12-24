@@ -168,7 +168,7 @@ def price_info(result, subscriber, event):
                     "type": "box",
                     "layout": "horizontal",
                     "contents": [],
-                    "backgroundColor": "#37e165",
+                    "backgroundColor": "#37b9e1",
                     "height": "10px"
                 },
                 "body": {
@@ -214,7 +214,7 @@ def price_info(result, subscriber, event):
                         }
                     ],
                     "paddingTop": "23px",
-                    "backgroundColor": "#0d0d0d"
+                    "backgroundColor": "#FAD7A0"
                 },
                 "footer": {
                     "type": "box",
@@ -232,7 +232,7 @@ def price_info(result, subscriber, event):
                                             "type": "text",
                                             "text": "BUY",
                                             "size": "sm",
-                                            "color": "#ffffff",
+                                            "color": "#17202A",
                                             "align": "center",
                                             "gravity": "center",
                                             "weight": "bold"
@@ -256,7 +256,7 @@ def price_info(result, subscriber, event):
                                             "type": "text",
                                             "text": "SELL",
                                             "size": "sm",
-                                            "color": "#ffffff",
+                                            "color": "#17202A",
                                             "align": "center",
                                             "gravity": "center",
                                             "weight": "bold"
