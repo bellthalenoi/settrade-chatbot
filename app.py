@@ -77,7 +77,7 @@ def check_my_portfolio(event):
                     "text": data["symbol"],
                     "size": "xxl",
                     "weight": "bold",
-                    "color": "#ffffff"
+                    "color": "#1B2631"
                 },
                 {
                     "type": "text",
