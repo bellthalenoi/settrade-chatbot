@@ -1,3 +1,4 @@
+import settrade.openapi
 from flask import Flask, request, abort
 from settrade.openapi import Investor
 
