@@ -214,7 +214,7 @@ def price_info(result, subscriber, event):
                         }
                     ],
                     "paddingTop": "23px",
-                    "backgroundColor": "#FAD7A0"
+                    "backgroundColor": "#FDEAE3"
                 },
                 "footer": {
                     "type": "box",
