@@ -139,11 +139,11 @@ def check_my_portfolio(event):
                     "type": "box",
                     "layout": "vertical",
                     "contents": portfolio_datas,
-                    "backgroundColor": "#0d0d0d"
+                    "backgroundColor": "#D5F5E3"
                 },
                 "styles": {
                     "footer": {
-                        "backgroundColor": "#0d0d0d"
+                        "backgroundColor": "#D5F5E3"
                     }
                 }
             }
