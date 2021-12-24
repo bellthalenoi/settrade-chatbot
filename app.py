@@ -168,7 +168,7 @@ def price_info(result, subscriber, event):
                     "type": "box",
                     "layout": "horizontal",
                     "contents": [],
-                    "backgroundColor": "#37b9e1",
+                    "backgroundColor": "#82E0AA",
                     "height": "10px"
                 },
                 "body": {
@@ -180,37 +180,37 @@ def price_info(result, subscriber, event):
                             "text": symbol,
                             "size": "xl",
                             "weight": "bold",
-                            "color": "#a6a6a6"
+                            "color": "#922B21"
                         },
                         {
                             "type": "text",
                             "text": str(last_price),
                             "size": "3xl",
                             "weight": "bold",
-                            "color": "#ebebeb"
+                            "color": "#922B21"
                         },
                         {
                             "type": "text",
                             "text": "High " + str(high_price),
                             "size": "xs",
-                            "color": "#bababa"
+                            "color": "#145A32"
                         },
                         {
                             "type": "text",
                             "text": "Low " + str(low_price),
                             "size": "xs",
-                            "color": "#bababa"
+                            "color": "#145A32"
                         },
                         {
                             "type": "text",
                             "text": "Volume " + str(volume),
                             "size": "xs",
-                            "color": "#bababa"
+                            "color": "#145A32"
                         },
                         {
                             "type": "separator",
                             "margin": "xl",
-                            "color": "#bdbdbd"
+                            "color": "#145A32"
                         }
                     ],
                     "paddingTop": "23px",
@@ -280,7 +280,7 @@ def price_info(result, subscriber, event):
                 },
                 "styles": {
                     "footer": {
-                        "backgroundColor": "#0d0d0d"
+                        "backgroundColor": "#F39C12"
                     }
                 }
             }
